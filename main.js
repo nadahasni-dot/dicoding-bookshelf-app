@@ -165,7 +165,7 @@ function displayCompletedBooks(books) {
 }
 
 function loadBookList() {
-  const searchQuery = document.querySelector("#searchBookTitle").value;
+  const searchQuery = document.querySelector("#searchBookTitle").value.toLowerCase();
 
   const books = getAllBooks();
   let filteredBooks = books;
