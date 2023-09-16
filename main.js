@@ -213,8 +213,6 @@ function submitBook(event) {
   window.dispatchEvent(refreshList);
 
   resetInput();
-
-  alert("Book successfully added!");
 }
 
 const bookFormInput = document.querySelector("#inputBook");
